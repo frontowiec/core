@@ -18,10 +18,6 @@ Default.args = {
   label: 'Button',
 };
 
-/**
- * Use the `loading` prop to indicate progress. Typically use
- * this to provide feedback when triggering asynchronous actions.
- */
 export const Sizes = () => (
   <>
     <Button primary={false} label="small" />
@@ -36,7 +32,8 @@ Sizes.args = {
 
 Sizes.parameters = {
   docs: {
-    storyDescription: 'asdasdasdasd',
+    storyDescription:
+      'Use the `loading` prop to indicate progress. Typically use  this to provide feedback when triggering asynchronous actions.',
   },
 };
 

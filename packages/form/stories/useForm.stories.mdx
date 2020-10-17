@@ -1,0 +1,19 @@
+import { Meta, Story, Canvas, Props, Source, Subtitle  } from '@storybook/addon-docs/blocks';
+import { Form } from '../src';
+
+<Meta title="core/Form/useForm" component={Form} />
+
+# useForm
+
+`useBreakpointValue` is a custom hook which returns the value for the current breakpoint from the provided responsive values object.
+This hook also responds to the window resizing, returning the appropriate value for the new window size.
+
+export const Template = (args) => <Form {...args} />
+
+<>
+  <Canvas>
+    <Props/>
+  </Canvas>
+  <Source code={`useForm({})`}/>
+  <Subtitle>Import</Subtitle>
+</>
