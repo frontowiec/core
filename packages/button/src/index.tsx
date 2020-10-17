@@ -13,7 +13,7 @@ interface IProps extends IBaseProps {
 }
 
 /** The `Button` component is used to trigger an action or event, such as submitting a form,
- * opening a dialog, canceling an action, or performing a delete operation. */
+ * opening a dialog, canceling an action, or performing a delete operation... */
 export const Button = ({ primary, label, colorScheme = '#553C9A' }: IProps) => {
   if (primary) {
     return (
