@@ -5,9 +5,16 @@
     "packages/*"
   ],
   "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "@storybook/addon-actions": "^6.0.26",
+    "@storybook/addon-essentials": "^6.0.26",
+    "@storybook/addon-links": "^6.0.26",
+    "@storybook/react": "^6.0.26",
     "@testing-library/react": "^11.0.4",
+    "babel-loader": "^8.1.0",
     "lerna": "^3.22.1",
     "pretty-quick": "^3.1.0",
+    "react-is": "^16.13.1",
     "tsdx": "^0.14.0"
   },
   "version": "independent",
@@ -17,11 +24,14 @@
   "peerDependencies": {},
   "scripts": {
     "build": "lerna run build",
-    "test": "lerna run test"
+    "test": "lerna run test",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "husky": {
     "hooks": {
       "pre-commit": "pretty-quick --staged"
     }
-  }
+  },
+  "dependencies": {}
 }
