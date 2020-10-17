@@ -26,7 +26,8 @@
     "build": "lerna run build",
     "test": "lerna run test",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "publish": "lerna publish --registry http://localhost:4873"
   },
   "husky": {
     "hooks": {
