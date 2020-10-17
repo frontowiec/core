@@ -37,7 +37,7 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "core",
+  "name": "@madkom/core",
   "author": "Marcin Sirocki",
   "module": "dist/core.esm.js",
   "size-limit": [
