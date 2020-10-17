@@ -7,6 +7,7 @@
   "devDependencies": {
     "@testing-library/react": "^11.0.4",
     "lerna": "^3.22.1",
+    "pretty-quick": "^3.1.0",
     "tsdx": "^0.14.0"
   },
   "version": "independent",
@@ -17,5 +18,10 @@
   "scripts": {
     "build": "lerna run build",
     "test": "lerna run test"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
   }
 }
