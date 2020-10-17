@@ -1,0 +1,21 @@
+{
+  "name": "madkom-core",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "@testing-library/react": "^11.0.4",
+    "lerna": "^3.22.1",
+    "tsdx": "^0.14.0"
+  },
+  "version": "independent",
+  "main": "index.js",
+  "author": "Marcin Sirocki <m.sirocki@madkom.pl>",
+  "license": "MIT",
+  "peerDependencies": {},
+  "scripts": {
+    "build": "lerna run build",
+    "test": "lerna run test"
+  }
+}
