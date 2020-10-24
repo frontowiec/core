@@ -33,6 +33,8 @@ Lista dostępnych paczek wraz z dokumentacją znajdują się na http://komponent
 
 // narzędzia z których korzystamy ts, eslint, prettier, storybook, RTL
 
+// docker
+
 ### Polecenia
 `yarn new`
 
