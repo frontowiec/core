@@ -11,16 +11,15 @@ Projekt ten zawiera zbiór powtarzalnego kodu w projektach frontendowych. Ma na 
 
 // dobrze jeśli zależność bazuje na jakiś standardach
 
-
-### Dokumentacja
-Lista dostępnych paczek wraz z dokumentacją znajdują się na http://komponenty.madkom.pl
-
 ## Jak tego użyć?
 Jeśli projekt został wygenerowany za pomocą `yarn create react-app --template=madkom` odrazu możesz instalować paczki
 
 // konfiguracja npm.madkom.pl a potem:
 
 // `yarn add @madkom/core`
+
+## Dokumentacja
+Lista dostępnych paczek wraz z dokumentacją znajdują się na http://komponenty.madkom.pl
 
 ## Struktura projektu
 // tutaj omawiam co znajduje się w konkretnych katalogach
