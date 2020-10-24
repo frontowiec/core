@@ -27,7 +27,8 @@
     "test": "lerna run test",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
-    "publish": "lerna publish --registry http://localhost:4873"
+    "publish": "lerna publish --registry http://localhost:4873",
+    "new": "sh -c 'npx tsdx create --template=${1:-react} ./packages/${0}'"
   },
   "husky": {
     "hooks": {
