@@ -23,6 +23,7 @@ export const Button = ({
   colorScheme = '#553C9A',
   color = '#FFF',
   radius = 0,
+  /** border style */
   border = 'none',
 }: IProps) => {
   if (primary) {
