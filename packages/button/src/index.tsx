@@ -6,6 +6,7 @@ interface IBaseProps {
   /** The color scheme of the button—one of the colors from theme.colors. */
   colorScheme?: string;
   color?: string;
+  radius?: number;
 }
 
 interface IProps extends IBaseProps {
@@ -20,9 +21,14 @@ export const Button = ({
   label,
   colorScheme = '#553C9A',
   color = '#FFF',
+  radius = 0,
 }: IProps) => {
   if (primary) {
-    return <button style={{ background: colorScheme, color }}>{label}</button>;
+    return (
+      <button style={{ background: colorScheme, color, borderRadius: radius }}>
+        {label}
+      </button>
+    );
   }
   return <button>{label}</button>;
 };
