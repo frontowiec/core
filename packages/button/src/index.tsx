@@ -7,6 +7,7 @@ interface IBaseProps {
   colorScheme?: string;
   color?: string;
   radius?: number;
+  border?: string;
 }
 
 interface IProps extends IBaseProps {
@@ -22,10 +23,13 @@ export const Button = ({
   colorScheme = '#553C9A',
   color = '#FFF',
   radius = 0,
+  border = 'none',
 }: IProps) => {
   if (primary) {
     return (
-      <button style={{ background: colorScheme, color, borderRadius: radius }}>
+      <button
+        style={{ background: colorScheme, color, borderRadius: radius, border }}
+      >
         {label}
       </button>
     );
