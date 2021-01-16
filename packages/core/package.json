@@ -22,7 +22,7 @@
   "dependencies": {
     "@madkom/button": "^3.2.1",
     "@madkom/form": "^1.2.2",
-    "lodash": "^4.17.3"
+    "lodash": "^4.17.5"
   },
   "peerDependencies": {
     "react": ">=16"

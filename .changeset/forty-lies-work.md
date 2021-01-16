@@ -1,0 +1,5 @@
+---
+"@madkom/core": patch
+---
+
+update
