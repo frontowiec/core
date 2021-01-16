@@ -1,5 +1,0 @@
----
-"@madkom/core": minor
----
-
-update
