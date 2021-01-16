@@ -1,5 +1,11 @@
 # @madkom/core
 
+## 2.2.2
+
+### Patch Changes
+
+- 8a27dc2: update
+
 ## 2.2.1
 
 ### Patch Changes
