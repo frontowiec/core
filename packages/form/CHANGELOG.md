@@ -1,5 +1,11 @@
 # @madkom/form
 
+## 1.2.1
+
+### Patch Changes
+
+- 6d77670: update
+
 ## 1.2.0
 
 ### Minor Changes

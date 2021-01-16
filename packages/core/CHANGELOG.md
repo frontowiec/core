@@ -1,5 +1,14 @@
 # @madkom/core
 
+## 2.1.1
+
+### Patch Changes
+
+- 6d77670: update
+- Updated dependencies [6d77670]
+  - @madkom/button@3.0.3
+  - @madkom/form@1.2.1
+
 ## 2.1.0
 
 ### Minor Changes
