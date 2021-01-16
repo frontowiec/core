@@ -1,5 +1,11 @@
 # @madkom/core
 
+## 2.1.0
+
+### Minor Changes
+
+- 3fdd120: update lodash
+
 ## 2.0.2
 
 ### Patch Changes
