@@ -1,5 +1,14 @@
 # @madkom/core
 
+## 2.2.1
+
+### Patch Changes
+
+- c2bc86a: update
+- Updated dependencies [c2bc86a]
+  - @madkom/button@3.2.1
+  - @madkom/form@1.2.2
+
 ## 2.2.0
 
 ### Minor Changes

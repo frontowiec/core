@@ -1,5 +1,11 @@
 # @madkom/form
 
+## 1.2.2
+
+### Patch Changes
+
+- c2bc86a: update
+
 ## 1.2.1
 
 ### Patch Changes

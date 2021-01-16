@@ -1,5 +1,11 @@
 # @madkom/button
 
+## 3.2.1
+
+### Patch Changes
+
+- c2bc86a: update
+
 ## 3.2.0
 
 ### Minor Changes

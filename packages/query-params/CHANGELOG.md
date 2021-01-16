@@ -1,5 +1,11 @@
 # packagesquery-params
 
+## 1.0.2
+
+### Patch Changes
+
+- c2bc86a: update
+
 ## 1.0.1
 
 ### Patch Changes
