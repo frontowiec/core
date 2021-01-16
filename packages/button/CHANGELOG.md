@@ -1,5 +1,11 @@
 # @madkom/button
 
+## 3.2.0
+
+### Minor Changes
+
+- update
+
 ## 3.1.0
 
 ### Minor Changes
