@@ -1,5 +1,11 @@
 # @madkom/button
 
+## 3.1.0
+
+### Minor Changes
+
+- defd9cd: update
+
 ## 3.0.3
 
 ### Patch Changes

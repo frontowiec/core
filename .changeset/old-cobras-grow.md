@@ -1,5 +1,0 @@
----
-"@madkom/button": minor
----
-
-update
