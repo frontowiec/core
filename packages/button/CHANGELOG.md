@@ -1,5 +1,11 @@
 # @madkom/button
 
+## 3.2.2
+
+### Patch Changes
+
+- update
+
 ## 3.2.1
 
 ### Patch Changes

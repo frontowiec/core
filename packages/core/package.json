@@ -1,5 +1,5 @@
 {
-  "version": "2.2.2",
+  "version": "2.2.3",
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -20,7 +20,7 @@
     "analyze": "size-limit --why"
   },
   "dependencies": {
-    "@madkom/button": "^3.2.1",
+    "@madkom/button": "^3.2.2",
     "@madkom/form": "^1.2.2",
     "lodash": "^4.17.5"
   },

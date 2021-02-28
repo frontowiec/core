@@ -1,5 +1,13 @@
 # @madkom/core
 
+## 2.2.3
+
+### Patch Changes
+
+- update
+- Updated dependencies [undefined]
+  - @madkom/button@3.2.2
+
 ## 2.2.2
 
 ### Patch Changes
