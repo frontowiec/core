@@ -30,7 +30,8 @@
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
     "publish": "lerna publish --registry http://localhost:4873",
-    "new": "sh -c 'npx tsdx create --template=${1:-react} ./packages/${0}'"
+    "new": "sh -c 'npx tsdx create --template=${1:-react} ./packages/${0}'",
+    "changeset-test": "sh -c 'node const fs = require(\"fs\"); fs.existsSync(\"./.changeset\") ? true : throw Error(false)'"
   },
   "husky": {
     "hooks": {
