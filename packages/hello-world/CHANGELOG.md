@@ -1,5 +1,11 @@
 # @madkom/hello-world
 
+## 0.3.0
+
+### Minor Changes
+
+- 9ccc95f: Konfiguracja chakra-ui, dodanie strony obsługującej błąd 500
+
 ## 0.2.2
 
 ### Patch Changes
